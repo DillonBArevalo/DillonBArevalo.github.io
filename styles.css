@@ -1,3 +1,45 @@
 body {
-  background: blue;
+  background-color: grey;
+}
+
+#title {
+  text-align: center;
+  font-family: garamond;
+}
+
+h2 {
+  margin: 10px;
+}
+
+
+#dances {
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/10394619_10154848705880510_8371696175182448650_n.jpg?oh=6537ea91dd72ef8ec459c0e0578cd1df&oe=58FE9B40);
+  background-size: 635px 350px;
+  border: 3px solid black;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+}
+li { 
+  padding-bottom: 35px;
+}
+
+.page-link:visited {
+  color: red;
+}
+
+@media screen and (max-width: 650px) {
+  #dances {
+    width: 90%;
+    background-image:none;
+    padding:4%;
+  }
+  li {
+    color: black;
+    text-shadow: none;
+  }
 }
